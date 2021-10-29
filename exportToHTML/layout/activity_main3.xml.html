@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>activity_main3.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000; font-style: italic;}
+.s1 { color: #0000ff; font-weight: bold;}
+.s2 { color: #000000;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #000080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main3.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+&lt;<span class="s4">LinearLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s3">=&quot;.MainActivity3&quot;</span>
+    <span class="s1">android:orientation</span><span class="s3">=&quot;vertical&quot;</span>
+    <span class="s1">android:gravity</span><span class="s3">=&quot;center&quot;</span>
+    <span class="s1">android:padding</span><span class="s3">=&quot;20sp&quot;</span>&gt;
+
+    &lt;<span class="s4">LinearLayout</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:orientation</span><span class="s3">=&quot;horizontal&quot;</span>&gt;
+
+        &lt;<span class="s4">LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s3">=&quot;vertical&quot;</span>&gt;
+
+            &lt;<span class="s4">TextView</span>
+                <span class="s1">android:layout_width</span><span class="s3">=&quot;100sp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s3">=&quot;50sp&quot;</span>
+                <span class="s1">android:text</span><span class="s3">=&quot;Location&quot;</span>
+                <span class="s1">android:gravity</span><span class="s3">=&quot;center_vertical&quot;</span>/&gt;
+
+            &lt;<span class="s4">TextView</span>
+                <span class="s1">android:layout_width</span><span class="s3">=&quot;100sp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s3">=&quot;50sp&quot;</span>
+                <span class="s1">android:text</span><span class="s3">=&quot;Name&quot;</span>
+                <span class="s1">android:gravity</span><span class="s3">=&quot;center_vertical&quot;</span>/&gt;
+
+            &lt;<span class="s4">TextView</span>
+                <span class="s1">android:layout_width</span><span class="s3">=&quot;100sp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s3">=&quot;50sp&quot;</span>
+                <span class="s1">android:text</span><span class="s3">=&quot;Type&quot;</span>
+                <span class="s1">android:gravity</span><span class="s3">=&quot;center_vertical&quot;</span>/&gt;
+
+
+
+        &lt;/<span class="s4">LinearLayout</span>&gt;
+        &lt;<span class="s4">ListView</span>
+            <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s3">=&quot;180sp&quot;</span>
+            <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;20sp&quot;</span>
+            <span class="s1">android:id</span><span class="s3">=&quot;@+id/listView&quot;</span>/&gt;
+    &lt;/<span class="s4">LinearLayout</span>&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/text_box_style&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;200dp&quot;</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/btn_find_location&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;Find Location&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorPrimary&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;14dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;40sp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;40sp&quot;</span>/&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;50sp&quot;</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/button_style&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;#ffffff&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;16dp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/btn_done&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;Done&quot;</span>/&gt;
+
+
+&lt;/<span class="s4">LinearLayout</span>&gt;</pre>
+</body>
+</html>

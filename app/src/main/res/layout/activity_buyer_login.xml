@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerLogin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80sp"
+        android:text="SIGN IN"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/email_signin"
+        android:background="@drawable/text_box_style"
+        android:paddingLeft="20sp"
+        android:hint="E-Mail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/passsignin"
+        android:background="@drawable/text_box_style"
+        android:paddingLeft="20sp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="40sp"
+        android:id="@+id/singin_btn"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/button_style"
+        android:text="Login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Don't have an Account? Sign Up"
+        android:id="@+id/textView2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="40sp"
+        android:id="@+id/predict_btn"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/button_style"
+        android:text="Prediction Manager"/>
+
+
+
+</LinearLayout>
